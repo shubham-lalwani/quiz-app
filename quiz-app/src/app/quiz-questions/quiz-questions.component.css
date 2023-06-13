@@ -1,0 +1,26 @@
+.question-area {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.quiz-questions{
+    padding: 10px;
+}
+
+.option-btn{
+    margin: 10px 0px 10px 0px;
+}
+.nav-btn{
+    margin: 10px;
+}
+
+.submit-btn {
+    margin-top: 45px;
+}
+.submit-btn button {
+    margin: 10px;
+}
+
+.questionId{
+    font-weight: 700
+}

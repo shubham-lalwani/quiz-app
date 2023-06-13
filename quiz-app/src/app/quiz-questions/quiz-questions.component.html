@@ -1,0 +1,47 @@
+<div class="quiz-questions">
+    <div class="card">
+        <div class="card-body text-bg-light">
+            <div class="text-center">
+                <h6>{{getQuizTitle()}}</h6>
+            </div>
+            <div class="container">
+                <div class="row justify-content-start">
+                    <div class="col-md-9">
+                        <div class="card question-area">
+                            <div class="card-body">
+                                <p class="questionId"> Question {{selectedQuestion.id}} </p>
+                                <p>
+                                    {{selectedQuestion.question}}
+                                </p>
+                            </div>
+                        </div>
+
+                        <div *ngFor="let option of selectedQuestion.options" class="d-grid gap-2 text-left option-btn">
+                            <button type="button" class="btn btn-light text-start shadow-sm"
+                                [class.active]="selectedQuestion.userSelectedAnswerId == option.id"
+                                (click)="answerSelected(selectedQuestion, option.id)">{{option.value}}</button>
+                        </div>
+                        <div class="text-center">
+                            <!-- previous btn -->
+                            <button type="button" class="btn btn-light text-start shadow-sm nav-btn"
+                                (click)="preQuestion()">Prev</button>
+                            <!-- Next btn -->
+                            <button type="button" class="btn btn-light text-start shadow-sm"
+                                (click)="nextQuestion()">Next</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <app-quiz-navigator (selectedNavId)="navIdChanged($event)"></app-quiz-navigator>
+                    </div>
+                </div>
+            </div>
+
+            <div class="submit-btn text-center">
+                <!-- submit page btn -->
+                <button type="button" class="btn btn-primary" (click)="submitPage()">Submit page</button>
+                <!-- submit all and finish btn -->
+                <button type="button" class="btn btn-primary" (click)="submitAll()">Submit all and finish</button>
+            </div>
+        </div>
+    </div>
+</div>

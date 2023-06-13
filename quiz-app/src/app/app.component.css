@@ -1,0 +1,25 @@
+.quiz-questions{
+    padding:10px
+}
+
+.selector{
+    margin: 10px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.header-container{
+padding: 5px 60px 5px 60px;
+}
+
+.form-select{
+    width:auto;
+    display:inline-block;
+}
+
+select option:disabled {
+    color: #e9ecef;
+}
+

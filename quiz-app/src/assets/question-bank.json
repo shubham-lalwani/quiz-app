@@ -1,0 +1,368 @@
+{
+  "design_patterns": [
+    {
+      "id": 1,
+      "question": "Which of the following pattern is used when we need to decouple an abstraction from its implementation so that the two can vary independently?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Bridge Pattern"
+        },
+        {
+          "id": 2,
+          "value": "Adapter Pattern"
+        },
+        {
+          "id": 3,
+          "value": "Prototype Pattern"
+        },
+        {
+          "id": 4,
+          "value": "Filter Pattern"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Composite Pattern"
+        },
+        {
+          "id": 2,
+          "value": "Facade Pattern"
+        },
+        {
+          "id": 3,
+          "value": "Flyweight Pattern"
+        },
+        {
+          "id": 4,
+          "value": "Decorator Pattern"
+        }
+      ],
+      "answerId": 3,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 3,
+      "question": "Which of the following pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Iterator Pattern"
+        },
+        {
+          "id": 2,
+          "value": "Mediator Pattern"
+        },
+        {
+          "id": 3,
+          "value": "Memento Pattern"
+        },
+        {
+          "id": 4,
+          "value": "Observer Pattern"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 4,
+      "question": " In which of the following pattern, a class behavior or its algorithm can be changed at run time?",
+      "options": [
+        {
+          "id": 1,
+          "value": "State Pattern"
+        },
+        {
+          "id": 2,
+          "value": "Null Object Pattern"
+        },
+        {
+          "id": 3,
+          "value": "Strategy Pattern"
+        },
+        {
+          "id": 4,
+          "value": "Template Pattern"
+        }
+      ],
+      "answerId": 3,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 5,
+      "question": " Which type of design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new opreator?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Creational Design Patterns"
+        },
+        {
+          "id": 2,
+          "value": "Structural Design Patterns"
+        },
+        {
+          "id": 3,
+          "value": "Behavioral Design Pattern"
+        },
+        {
+          "id": 4,
+          "value": "J2EE Design Patterns"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    }
+  ],
+  "angular": [
+    {
+      "id": 1,
+      "question": ".angular-cli.json is used to",
+      "options": [
+        {
+          "id": 1,
+          "value": "link external files"
+        },
+        {
+          "id": 2,
+          "value": "configure your angular 2 project"
+        },
+        {
+          "id": 3,
+          "value": "install required project packages"
+        },
+        {
+          "id": 4,
+          "value": "None of the above"
+        }
+      ],
+      "answerId": 2,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 2,
+      "question": "Which file is responsible for startup of angular 2 project?",
+      "options": [
+        {
+          "id": 1,
+          "value": "main.ts"
+        },
+        {
+          "id": 2,
+          "value": "index.js"
+        },
+        {
+          "id": 3,
+          "value": "app.ts"
+        },
+        {
+          "id": 4,
+          "value": "angular.cli.json"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is the correct way to apply a filter?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Property-value || filter"
+        },
+        {
+          "id": 2,
+          "value": "Property-value && filter"
+        },
+        {
+          "id": 3,
+          "value": "Property-value | filter"
+        },
+        {
+          "id": 4,
+          "value": "None of the above"
+        }
+      ],
+      "answerId": 3,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the decorator used for configuring your module class?",
+      "options": [
+        {
+          "id": 1,
+          "value": "@NgApp"
+        },
+        {
+          "id": 2,
+          "value": "@NgModule"
+        },
+        {
+          "id": 3,
+          "value": "@NgAngular"
+        },
+        {
+          "id": 4,
+          "value": "@NgConfigure"
+        }
+      ],
+      "answerId": 2,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 5,
+      "question": "Interpolation in angular 2 is done using",
+      "options": [
+        {
+          "id": 1,
+          "value": "{{}}"
+        },
+        {
+          "id": 2,
+          "value": "{{|var}}"
+        },
+        {
+          "id": 3,
+          "value": "{{{}}}"
+        },
+        {
+          "id": 4,
+          "value": "!!!!"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    }
+  ],
+  "java": [
+    {
+      "id": 1,
+      "question": "What is the size of float and double in java?",
+      "options": [
+        {
+          "id": 1,
+          "value": "32 and 64"
+        },
+        {
+          "id": 2,
+          "value": "33 and 67"
+        },
+        {
+          "id": 3,
+          "value": "35 and 66"
+        },
+        {
+          "id": 4,
+          "value": "34 and 65"
+        }
+      ],
+      "answerId": 1,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not a Java features?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Dynamic"
+        },
+        {
+          "id": 2,
+          "value": "Architecture Neutral"
+        },
+        {
+          "id": 3,
+          "value": "Use of pointers"
+        },
+        {
+          "id": 4,
+          "value": "Object-oriented"
+        }
+      ],
+      "answerId": 3,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 3,
+      "question": "_____ is used to find and fix bugs in the Java programs.",
+      "options": [
+        {
+          "id": 1,
+          "value": "JVM"
+        },
+        {
+          "id": 2,
+          "value": "JRE"
+        },
+        {
+          "id": 3,
+          "value": "JDK"
+        },
+        {
+          "id": 4,
+          "value": "JDB"
+        }
+      ],
+      "answerId": 4,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the return type of the hashCode() method in the Object class?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Object"
+        },
+        {
+          "id": 2,
+          "value": "int"
+        },
+        {
+          "id": 3,
+          "value": "long"
+        },
+        {
+          "id": 4,
+          "value": "void"
+        }
+      ],
+      "answerId": 2,
+      "userSelectedAnswerId": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?",
+      "options": [
+        {
+          "id": 1,
+          "value": "javap tool"
+        },
+        {
+          "id": 2,
+          "value": "javaw command"
+        },
+        {
+          "id": 3,
+          "value": "Javadoc tool"
+        },
+        {
+          "id": 4,
+          "value": "javah command"
+        }
+      ],
+      "answerId": 3,
+      "userSelectedAnswerId": 0
+    }
+  ]
+}

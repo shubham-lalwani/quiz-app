@@ -1,0 +1,36 @@
+<div class="container bg-info">
+  <div class="header-container">
+    <div class="card">
+      <div class="card-body text-bg-light">
+        <div class="text-center">
+          <h2>Quiz Application UI</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col align-self-start">
+      </div>
+      <div class="col align-self-center">
+      </div>
+      <div *ngIf="displayQuizFrame == quizFrame.QA" class="col align-self-end">
+        Select Quiz:
+        <select class="form-select" aria-label="Default select example" (change)="quizChange($event)"
+          [(ngModel)]="quizSelected" ngDefaultControl>
+          <option [value]="quizOptions.DESIGN_PATTERNS" [disabled]="disableQuizSelector.design_patterns">Design Patterns
+          </option>
+          <option [value]="quizOptions.ANGULAR" [disabled]="disableQuizSelector.angular">Angular</option>
+          <option [value]="quizOptions.JAVA" [disabled]="disableQuizSelector.java">Java</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quiz questions component -->
+  <app-quiz-questions *ngIf="displayQuizFrame == quizFrame.QA && readyToLoad" [quizSelected]="quizSelected"
+    (submittedPage)="switchToNextQuiz($event)" (submittedAll)="switchToResults()"></app-quiz-questions>
+
+  <!-- Quiz results component -->
+  <app-quiz-result *ngIf="displayQuizFrame == quizFrame.RESULT" (navToQA)="navToQA($event)"></app-quiz-result>
+</div>

@@ -1,0 +1,42 @@
+<div class="quiz-result">
+    <div class="card">
+        <div class="card-body text-bg-light">
+            <h4>Results</h4>
+            <p> {{correctCount}} of 15 questions answered correctly</p>
+        </div>
+        <div class="cat-result">
+            <div class="card">
+                <div class="card-body text-bg-light">
+                    <h5 class="card-title">Category Score</h5>
+                    <div class="container">
+                        <div *ngFor="let answerObj of correctAnswers | keyvalue">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    {{correctAnswers[answerObj.key].text}}
+                                </div>
+                                <div class="col">
+                                </div>
+                                <div class="col text-end">
+                                    {{correctAnswers[answerObj.key].score}} of {{correctAnswers[answerObj.key].total}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-start">
+                            <div class="col">
+                                Overall
+                            </div>
+                            <div class="col">
+                            </div>
+                            <div class="col text-end">
+                                {{correctCount}} of 15
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-reset text-center">
+            <button class="btn btn-primary" type="button" (click)="displayQA()"> Click Here to Continue</button>
+        </div>
+    </div>
+</div>
